@@ -4,6 +4,7 @@ This app is written and intended for mobile use only.
 
 
 # Installation
+This webapp is tested in php 7.4
 
 ## webpage
 upload the contents of 'www' to your webserver.
