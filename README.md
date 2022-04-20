@@ -2,6 +2,8 @@
 Small web app to register users with email and let them vote on beers. </br>
 This app is written and intended for mobile use only.
 
+![img](https://github.com/tedelm/miniSM/blob/6bb826999c814feaad27bb64b2ae1e165958a294/screenshots/screenshot_home.PNG?raw=true)
+
 
 # Installation
 This webapp is tested in php 7.4
