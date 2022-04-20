@@ -1,0 +1,206 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+
+
+.maincontainer {
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.maincontainerRegler {
+    margin-left: 10px;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;  
+}
+
+
+.slidecontainer {
+    margin: auto;
+    width: 90%;
+}
+  
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: rgb(255,248,0);
+    background: linear-gradient(90deg, rgba(255,248,0,1) 0%, rgba(255,200,17,1) 100%, rgba(255,136,0,1) 100%);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 60px;
+    height: 60px;
+    border: 0;
+    background: url('../img/beer_60x60.png');
+    cursor: pointer;
+  }
+  
+.slider::-moz-range-thumb {
+    width: 60px;
+    height: 60px;
+    border: 0;
+    background: url('../img/beer_60x60.png');
+    cursor: pointer;
+  }
+.megaheadline {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.bigheadline {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}  
+.headline {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font-size: large;
+}
+.textline {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: medium; 
+} 
+.textlinexsmallwhite {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: xx-small;
+    color: #fff;
+} 
+.textlineleft {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: medium; 
+    text-align: left;
+} 
+.left {
+    text-align: left;
+    margin: auto;
+}
+  
+.right {
+    text-align: right;
+    margin: auto;
+}
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.topnav {
+    background: url('../img/bavarian.png');
+    overflow: hidden;
+    background-color: #333;
+    color: #333;
+}
+  
+  .topnav a {
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;    
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(69, 154, 240);
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #fff;
+    color: rgb(69, 154, 240);
+  }
+
+  .buttonContainer{
+    background-color: rgb(69, 154, 240);   
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;      
+  }
+  .buttonContainer a {
+    background-color: rgb(69, 154, 240);   
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;     
+  }    
+  .buttonContainer a:hover{
+    background-color: #fff;
+    color: rgb(69, 154, 240);     
+  }  
+  .buttonContainer a.active{
+    background-color: #fff;
+    color: rgb(69, 154, 240);     
+  }    
+
+  
+
+
+  .navbarBottom {
+    overflow: hidden;
+    background-color: rgb(69, 154, 240);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;      
+  }
+  
+  .navbarBottom a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbarBottom a:hover {
+    background: #fff;
+    color: black;
+  }
+  
+  .navbarBottom a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-bottom: 30px;
+  }
